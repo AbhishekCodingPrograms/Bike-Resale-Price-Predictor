@@ -16,7 +16,7 @@ dic_img = {
 }
 
 st.title('Bike Price Predictor!')
-st.write("###### Created By [Rakesh Sahni](https://rakeshsahni.github.io/rakesh/), [Source Code](https://github.com/rakeshsahni/bike-price-predictor.git)")
+st.write("###### Created By [Abhishek Maurya](https://github.com/AbhishekCodingPrograms), [Source Code](https://github.com/AbhishekCodingPrograms/Bike-Resale-Price-Predictor)")
 
 with open('bike_predictor_rf.pkl', 'rb') as f:
     model = pickle.load(f)
